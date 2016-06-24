@@ -3,7 +3,10 @@ window.onload = function(){
 
 /*code here*/
 $(function() {
-			$('.banner').unslider();
+			$('.banner').unslider({
+        nav: false,
+        arrows: false
+      });
     });
 
   }else {

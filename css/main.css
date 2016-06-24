@@ -10,14 +10,15 @@ body {
 *******************************************/
 .page {
   height: 50vh;
-  text-indent: -9999px;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
-
 .first {
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg');
+  background: url('../oven.jpg') no-repeat;
 }
 
 
