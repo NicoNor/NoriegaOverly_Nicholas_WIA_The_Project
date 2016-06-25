@@ -62,15 +62,27 @@ body {
 /*******************************************
 ==============HOME PAGE=====================
 *******************************************/
-#fdw {
+header {
   background: url(../images/oven.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
 nav {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(118, 116, 116, 0.4);
   height: 150px;
 
+}
+/*******************************************
+==============HEADER========================
+*******************************************/
+
+
+#logo {
+  color: #fff;
+  font-family: "Alex Brush", cursive;
+  font-size: 6em;
+  font-weight: 400;
+  float: left;
 }
 
 /*******************************************
@@ -79,20 +91,20 @@ nav {
 /*===== nav style ======*/
 
 
-	#fdw nav ul {
+	header nav ul {
 	    display:block;
       float: right;
 	}
 
-	#fdw nav ul li {
+	header nav ul li {
 	    display:inline-block;
 	    padding:50px 3px 30px;
 	    margin-left:30px;
 	    position:relative;
 	}
 
-	#fdw nav ul li a:link, #fdw nav ul li a:visited {
-	    color:#411f11;
+	header nav ul li a:link, header nav ul li a:visited {
+	    color:#FFF;
 	    font:normal 20px 'Yanone Kaffeesatz', sans-serif;
 	    text-transform:uppercase;
 	    display:inline-block;
@@ -100,15 +112,15 @@ nav {
       text-decoration: none;
 	}
 
-	#fdw nav ul li a:hover, #fdw nav ul li a:active {
+	header nav ul li a:hover, header nav ul li a:active {
 
-	    color:#e25d29;
-
+	    color:#FFF;
+      opacity: 0.6;
 	    text-decoration:none;
 
 	}
 
-	#fdw nav ul li span {
+	header nav ul li span {
 
 	    position:absolute;
 
@@ -132,7 +144,7 @@ nav {
 	}
 
 
-	#fdw nav ul li.current a {
+	header nav ul li.current a {
 
 	    color:#e25d29;
 
@@ -140,12 +152,12 @@ nav {
 
 	}
 
-	#fdw nav ul li.current a span {
+	header nav ul li.current a span {
 
 
 	}
 
-	#fdw nav ul li.current ul li a {
+	header nav ul li.current ul li a {
 
 	    cursor:pointer;
 
@@ -155,7 +167,7 @@ nav {
 
 	/*===== sub_menu Style =======*/
 
-	#fdw nav ul li ul.sub_menu {
+	header nav ul li ul.sub_menu {
 
 	    position:absolute;
 
@@ -185,7 +197,7 @@ nav {
 
 	}
 
-	#fdw nav ul li ul.sub_menu li.arrow_top {
+	header nav ul li ul.sub_menu li.arrow_top {
 
 	    position:absolute;
 
@@ -204,7 +216,7 @@ nav {
 
 	}
 
-	#fdw nav ul li ul.sub_menu li {
+	header nav ul li ul.sub_menu li {
 
 	    float:none;
 
@@ -216,7 +228,7 @@ nav {
 
 	}
 
-	#fdw nav ul li ul.sub_menu li a {
+	header nav ul li ul.sub_menu li a {
 
 	    white-space: nowrap;
 
@@ -232,7 +244,7 @@ nav {
 
 	}
 
-	#fdw nav ul li ul.sub_menu li a:hover {
+	header nav ul li ul.sub_menu li a:hover {
 
 	    background:#f9f9f9;
 
@@ -240,7 +252,7 @@ nav {
 
 	}
 
-	#fdw nav ul li ul.sub_menu li a.subCurrent {
+	header nav ul li ul.sub_menu li a.subCurrent {
 
 	    color:#e25d29;
 
@@ -248,7 +260,7 @@ nav {
 
 	}
 
-	#fdw nav ul li ul.sub_menu li a.subCurrent:hover {
+	header nav ul li ul.sub_menu li a.subCurrent:hover {
 
 	    background:none;
 
