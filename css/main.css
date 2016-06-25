@@ -67,6 +67,11 @@ body {
   background-size: cover;
   height: 100vh;
 }
+nav {
+  background: rgba(255, 255, 255, 0.4);
+  height: 150px;
+
+}
 
 /*******************************************
 ==============NAV MENU=====================
@@ -75,39 +80,24 @@ body {
 
 
 	#fdw nav ul {
-
 	    display:block;
-
-	    z-index:999999;
       float: right;
-
-
 	}
 
 	#fdw nav ul li {
-
 	    display:inline-block;
-
 	    padding:50px 3px 30px;
-
 	    margin-left:30px;
-
 	    position:relative;
-
 	}
 
 	#fdw nav ul li a:link, #fdw nav ul li a:visited {
-
-	    color:#444;
-
+	    color:#411f11;
 	    font:normal 20px 'Yanone Kaffeesatz', sans-serif;
-
 	    text-transform:uppercase;
-
 	    display:inline-block;
-
 	    position:relative;
-
+      text-decoration: none;
 	}
 
 	#fdw nav ul li a:hover, #fdw nav ul li a:active {
