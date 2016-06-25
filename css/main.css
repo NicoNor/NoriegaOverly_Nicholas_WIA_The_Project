@@ -62,8 +62,9 @@ body {
 /*******************************************
 ==============HOME PAGE=====================
 *******************************************/
-#homePage {
+#fdw {
   background: url(../images/oven.jpg) no-repeat center center;
+  background-size: cover;
   height: 100vh;
 }
 
