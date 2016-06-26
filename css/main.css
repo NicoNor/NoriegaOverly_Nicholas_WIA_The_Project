@@ -13,18 +13,18 @@ body {
 }
 .page {
   height: 50vh;
-  overflow: hidden;
-  white-space: nowrap;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
 .first {
+  height: 100vh;
   background-color: white;
 }
 .second {
   background-color: black;
 }
+
 
 
 /*******************************************
@@ -66,6 +66,7 @@ header {
   background: url(../images/raspberrycupcake.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
+  background-attachment: fixed;
 }
 nav {
   background: rgba(118, 116, 116, 0.4);
@@ -75,8 +76,6 @@ nav {
 /*******************************************
 ==============HEADER========================
 *******************************************/
-
-
 #logo {
   color: #fff;
   font-family: "Alex Brush", cursive;
@@ -84,7 +83,15 @@ nav {
   font-weight: 400;
   float: left;
 }
-
+#greeting {
+    color: #fff;
+    font-family: "Alex Brush", cursive;
+    font-size: 10em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1.7em;
+    position: relative;
+}
 /*******************************************
 ==============NAV MENU=====================
 *******************************************/
@@ -199,7 +206,7 @@ nav {
   ==============Slider========================
   *******************************************/
 .slide1 {
-  background: url(../images/yellowflower.jpeg) no-repeat center center;
+  background: url(../images/milkandcupcake.jpeg) no-repeat center center;
   background-size: cover;
 }
 .slide2 {
@@ -211,6 +218,6 @@ nav {
   background-size: cover;
 }
 .slide4 {
-  background: url(../images/sweetdozen.jpeg) no-repeat center center;
+  background: url(../images/sweetdozen.jpeg) no-repeat center;
   background-size: cover;
 }
