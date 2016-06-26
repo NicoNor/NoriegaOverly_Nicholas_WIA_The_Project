@@ -20,7 +20,7 @@ body {
   background-size: cover;
 }
 .first {
-  background-color: tan;
+  background-color: white;
 }
 .second {
   background-color: black;
@@ -63,7 +63,7 @@ body {
 ==============HOME PAGE=====================
 *******************************************/
 header {
-  background: url(../images/oven.jpg) no-repeat center center;
+  background: url(../images/raspberrycupcake.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
@@ -105,7 +105,7 @@ nav {
 
 	header nav ul li a:link, header nav ul li a:visited {
 	    color:#FFF;
-	    font:normal 20px 'Yanone Kaffeesatz', sans-serif;
+	    font:normal 20px, sans-serif;
 	    text-transform:uppercase;
 	    display:inline-block;
 	    position:relative;
@@ -113,7 +113,6 @@ nav {
 	}
 
 	header nav ul li a:hover, header nav ul li a:active {
-
 	    color:#FFF;
       opacity: 0.6;
 	    text-decoration:none;
@@ -121,147 +120,97 @@ nav {
 	}
 
 	header nav ul li span {
-
 	    position:absolute;
-
 	    right:-12px;
-
 	    bottom:6px;
-
 	    width:7px;
-
 	    height:8px;
-
 	    margin:0 0 0 3px;
-
 	    float:right;
-
 	    display:block;
-
-
 	    font:0/0 a;
-
 	}
-
 
 	header nav ul li.current a {
-
 	    color:#e25d29;
-
 	    cursor: default;
-
-	}
-
-	header nav ul li.current a span {
-
-
 	}
 
 	header nav ul li.current ul li a {
-
 	    cursor:pointer;
-
 	}
-
-
-
 	/*===== sub_menu Style =======*/
-
 	header nav ul li ul.sub_menu {
-
 	    position:absolute;
-
 	    top:90px;
-
 	    left:0;
-
 	    margin:0;
-
 	    padding:0;
-
 	    background:#fff;
-
 	    border:1px solid #ececec;
-
 	    border-top:5px solid #e25d29;
-
 	    display:none;
-
 	    z-index:999999;
-
 	    -moz-box-shadow: 0px 6px 7px #121012;
-
 	    -webkit-box-shadow: 0px 6px 7px #121012;
-
 	    box-shadow: 0px 6px 7px #121012;
-
 	}
 
 	header nav ul li ul.sub_menu li.arrow_top {
-
 	    position:absolute;
-
 	    top:-12px;
-
 	    left:12px;
-
 	    width:13px;
-
 	    height:8px;
-
 	    display:block;
-
 	    border:none;
-
-
 	}
 
 	header nav ul li ul.sub_menu li {
-
 	    float:none;
-
 	    margin:0;
-
 	    padding:0;
-
 	    border-bottom:1px solid #ececec;
-
 	}
 
 	header nav ul li ul.sub_menu li a {
-
 	    white-space: nowrap;
-
 	    width: 150px;
-
 	    padding:12px;
-
 	    font:13px Arial, tahoma, sans-serif;
-
 	    text-transform:capitalize;
-
 	    color:#777;
-
 	}
 
 	header nav ul li ul.sub_menu li a:hover {
-
 	    background:#f9f9f9;
-
 	    color:#333;
-
 	}
 
 	header nav ul li ul.sub_menu li a.subCurrent {
-
 	    color:#e25d29;
-
 	    cursor:default;
-
 	}
 
 	header nav ul li ul.sub_menu li a.subCurrent:hover {
-
 	    background:none;
-
 	}
+  /*******************************************
+  ==============Slider========================
+  *******************************************/
+.slide1 {
+  background: url(../images/yellowflower.jpeg) no-repeat center center;
+  background-size: cover;
+}
+.slide2 {
+  background: url(../images/cofeecookies.jpeg) no-repeat center center;
+  background-size: cover;
+}
+.slide3 {
+  background: url(../images/blueberrybiscuit.jpeg) no-repeat center center;
+  background-size: cover;
+}
+.slide4 {
+  background: url(../images/sweetdozen.jpeg) no-repeat center center;
+  background-size: cover;
+}
